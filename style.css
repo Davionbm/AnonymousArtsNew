@@ -222,7 +222,7 @@ h3{
 }
 
 .layer:hover{
-  background: rgba(226,0,0,0.7);
+  background: rgba(0,0,100,0.7);
 }
 
 .layer h3{
@@ -473,9 +473,8 @@ h3{
 
 
 /* categories */
-
-.categories{
-  
+.link-text{
+  margin-top: 100%;
 }
 
 .layer h5 a{
@@ -483,6 +482,11 @@ h3{
   color: black;
   margin-top: 100%;
   margin-bottom: 0;
+  position: relative;
+}
+
+.layer:hover a{
+  color: white;
 }
 
 
