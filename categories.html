@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>About Us Page</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/logo.png"></a>
+      <div class="nav-links">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="">CATEGORIES</a></li>
+          <li><a href="">PRICES</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Categories</h1>
+  </section>
+  
+  <!-- Categories -->
+   <section class="prices categories">
+     <h1>Catgories Of Our Designs</h1>
+     <p>These are the prices of the following designs, depending on the<br> complexity of the design.</p>
+     
+     <div class="row">
+       <div class="prices-col">
+         <img src="BirthdayPoster.jpg">
+         <div class="layer">
+           <h3>N5,000</h3>
+           <h5><a href="index.html">Birthday Poster</a></h5>
+         </div>
+       </div>
+       
+       <div class="prices-col">
+         <img src="Flyer.jpg">
+         <div class="layer">
+           <h3>N5,000</h3>
+           <h5><a href="">e-Flyers</a></h5>
+         </div>
+       </div>
+       
+       <div class="prices-col">
+         <img src="Logo(Prices).jpg">
+         <div class="layer">
+           <h3>N3,000</h3>
+           <h5><a href="">Logos</a></h5>
+         </div>
+       </div>
+       
+       <div class="prices-col">
+         <img src="MusicCoverArt.png">
+         <div class="layer">
+           <h3>N4,000</h3>
+           <h5><a href="">Music Cover Art</a></h5>
+         </div>
+       </div>
+       
+       <div class="prices-col">
+         <img src="TextEffect.jpg">
+         <div class="layer">
+           <h3>N4,000</h3>
+           <h5><a href="">Text Effect</a></h5>
+         </div>
+       </div>
+     </div>
+     
+     <div class="row">
+       <div class="prices-col">
+         <img src="Banners.jpg">
+         <div class="layer">
+           <h3>N5,000-N10,000</h3>
+           <h5><a href="">Banner</a></h5>
+         </div>
+       </div>
+     
+       <div class="prices-col">
+         <img src="Brochures.png">
+         <div class="layer">
+           <h3>N5,000</h3>
+           <h5><a href="">Brochure</a></h5>
+         </div>
+       </div>
+     
+       <div class="prices-col">
+         <img src="CartoonEffect.png">
+         <div class="layer">
+           <h3>N3,000</h3>
+           <h5><a href="">Cartoon Effects</a></h5>
+         </div>
+       </div>
+     
+       <div class="prices-col">
+         <img src="IDCards.jpg">
+         <div class="layer">
+           <h3>N4,000</h3>
+           <h5><a href="">ID Cards</a></h5>
+         </div>
+       </div>
+     
+       <div class="prices-col">
+         <img src="Quotes.jpg">
+         <div class="layer">
+           <h3>N4,000</h3>
+           <h5><a href="">Quotes</a></h5>
+         </div>
+       </div>
+     </div>
+   </section>
+   
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+  <section>
+    <div class="cta">
+      <h1>Like What You See?<br>Why not Hit The Contact Us Button</h1>
+      <a href="" class="hero-btn">Contact Us</a>
+    </div>
+  </section>
+
+  <section class="footer">
+    <div class="row">
+      <div class="social-media-links">
+        <h3>Social Media Links</h3>
+        <i class="fa fa-facebook"><p>Facebook</p></i>
+        <i class="fa fa-instagram"><p>Instagram</p></i>
+        <i class="fa fa-linkedin"><p>Linkedin</p></i>
+      </div>
+      
+      <div class="sitemap">
+        <h3>Sitemap</h3>
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="">CATEGORIES</a>
+        <a href="">PRICES</a>
+        <a href="">CONTACT</a>
+      </div>
+      
+      <div class="footer-logo">
+        <img src="20220629_090103.png" class="footer-logo">
+        <!-- <p>Lorem Ipsun dolor sit amet, comsectetur adipiscing elit Pellenteseque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit. Lorem Ipsun dolor sit amet, <br> comsectetur adipiscing elit Pellenteseque aliquet turpis nulla, eleifend faucibus est sollicitudin ut. Maecenas ut venenatis ex, et dapibus purus Donec sit</p> -->
+      </div>
+    </div>  
+   </section>
+
+
+  <!-- JavaSript for toggle Menu -->
+  <script src="main.js">
+    var navLinks = document.getElementById("navLinks");
+    funtion showMenu() {
+      navLinks.style.right = "0";
+    }
+    funtion hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+
+</html>
